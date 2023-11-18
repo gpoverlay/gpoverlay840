@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure prepare unpack
+DEPEND=sys-devel/qbe
+DESCRIPTION=C11 compiler using QBE as backend
+EAPI=8
+HOMEPAGE=https://sr.ht/~mcf/cproc/
+INHERIT=edo toolchain-funcs git-r3
+LICENSE=ISC
+PROPERTIES=live
+RDEPEND=sys-devel/qbe
+SLOT=0
+_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	git-r3	5133e393e8717a3a093660f990801dc1	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc
+_md5_=4676bed61178b6d99db88acd1be4c5ae

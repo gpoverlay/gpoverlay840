@@ -1,0 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install test unpack
+DESCRIPTION=Configures default shortnames (aliases) for Containers
+EAPI=8
+HOMEPAGE=https://github.com/containers/shortnames
+INHERIT=git-r3
+LICENSE=Apache-2.0
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	5133e393e8717a3a093660f990801dc1
+_md5_=639c987f9c34fce6d17a23ad440debe9

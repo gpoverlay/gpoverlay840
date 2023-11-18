@@ -1,0 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure unpack
+DESCRIPTION=A skinny libtool implementation, written in C
+EAPI=8
+HOMEPAGE=https://git.foss21.org/slibtool
+INHERIT=toolchain-funcs git-r3
+LICENSE=MIT
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	5133e393e8717a3a093660f990801dc1	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc
+_md5_=7be81e80f103fb0edc419d1c9ea4be8d

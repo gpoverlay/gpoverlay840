@@ -1,0 +1,14 @@
+BDEPEND=sys-devel/bison pgo? ( dev-util/gperf ) verify-sig? ( sec-keys/openpgp-keys-chetramey ) verify-sig? ( app-crypt/gnupg >=app-portage/gemato-16 ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install postinst preinst prepare setup test unpack
+DEPEND=>=sys-libs/ncurses-5.2-r2:= nls? ( virtual/libintl )
+DESCRIPTION=The standard GNU Bourne again shell
+EAPI=8
+HOMEPAGE=https://tiswww.case.edu/php/chet/bash/bashtop.html https://git.savannah.gnu.org/cgit/bash.git
+INHERIT=flag-o-matic toolchain-funcs prefix verify-sig git-r3
+IUSE=afs bashlogger examples mem-scramble +net nls plugins pgo +readline verify-sig
+LICENSE=GPL-3+
+PROPERTIES=live
+RDEPEND=>=sys-libs/ncurses-5.2-r2:= nls? ( virtual/libintl )
+SLOT=0
+_eclasses_=flag-o-matic	baa4d385108ac87993edac956a916a36	git-r3	5133e393e8717a3a093660f990801dc1	multilib	c19072c3cd7ac5cb21de013f7e9832e0	prefix	eab3c99d77fe00506c109c8a736186f7	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	verify-sig	798e0173d334021f14ba78a786c37059
+_md5_=f8ecea17ce80fff93b54c51f598e67fb

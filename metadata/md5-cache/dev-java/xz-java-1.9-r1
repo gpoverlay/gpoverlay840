@@ -1,0 +1,15 @@
+BDEPEND=app-arch/unzip verify-sig? ( sec-keys/openpgp-keys-lassecollin ) verify-sig? ( app-crypt/gnupg >=app-portage/gemato-16 )
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:* >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+DESCRIPTION=Implementation of xz data compression in pure java
+EAPI=8
+HOMEPAGE=https://tukaani.org/xz/java.html
+INHERIT=java-pkg-2 java-pkg-simple verify-sig
+IUSE=doc examples source verify-sig
+KEYWORDS=amd64 ~arm arm64 ppc64 x86
+LICENSE=public-domain
+RDEPEND=>=virtual/jre-1.8:* >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+SLOT=0
+SRC_URI=https://tukaani.org/xz/xz-java-1.9.zip verify-sig? ( https://tukaani.org/xz/xz-java-1.9.zip.sig )
+_eclasses_=java-pkg-2	1794573de2f5124d88b64ee5dc9aabb4	java-pkg-simple	4ab397252045e0aeb290efb05ea956c7	java-utils-2	c04e82b700f977924b211c7cdbc2f096	verify-sig	798e0173d334021f14ba78a786c37059
+_md5_=86d4567259d8cfa5693811052da18e1a
